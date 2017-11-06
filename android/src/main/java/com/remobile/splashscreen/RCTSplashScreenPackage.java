@@ -16,10 +16,10 @@ public class RCTSplashScreenPackage implements ReactPackage {
     private Activity activity;
     private boolean translucent;
 
-    public RCTSplashScreenPackage(Activity activity, boolean translucent) {
+    public RCTSplashScreenPackage(Activity activity) {
         super();
         this.activity = activity;
-        this.translucent = translucent;
+        this.translucent = false;
     }
 
 
